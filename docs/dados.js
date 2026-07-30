@@ -2,7 +2,7 @@ window.FENACANTO_DATA = {
   "meta": {
     "title": "Guia Oficial do Participante — FenaCanto 2026",
     "description": "Programação, corais, locais, orientações, turismo, galerias e avisos do IV FenaCanto, em Aracaju/SE.",
-    "updated": "30 de julho de 2026, 8h02",
+    "updated": "30 de julho de 2026, 10h13",
     "status": "Versão preliminar • conteúdo em validação"
   },
   "summary": {
@@ -11,7 +11,7 @@ window.FENACANTO_DATA = {
     "choirs": 15,
     "states": 13,
     "regions": 5,
-    "participants": "A CONFIRMAR"
+    "participants": 499
   },
   "messages": [
     {
@@ -774,8 +774,8 @@ window.FENACANTO_DATA = {
   "alerts": [
     {
       "date": "30/07/2026",
-      "title": "Guia em consolidação",
-      "text": "A programação-base e os corais já foram incluídos. Contatos, transporte, traje, acessibilidade, números de participantes e alguns nomes ainda aguardam validação oficial.",
+      "title": "Inscrições consolidadas no guia",
+      "text": "O painel de participantes foi atualizado com 499 inscrições registradas até 28 de julho, apresentadas de forma agregada por delegação, região e perfil de participação.",
       "tag": "Atualização"
     },
     {
@@ -789,7 +789,6 @@ window.FENACANTO_DATA = {
     {
       "name": "Teatro Tobias Barreto",
       "kind": "Apresentações e cerimônias",
-      "image": "assets/teatro-tobias-barreto.jpg",
       "address": "Av. Presidente Tancredo Neves, 2209 — Inácio Barbosa, Aracaju/SE",
       "maps": "https://www.google.com/maps/search/?api=1&query=Teatro+Tobias+Barreto+Aracaju",
       "waze": "https://www.waze.com/ul?q=Teatro%20Tobias%20Barreto%20Aracaju&navigate=yes",
@@ -797,12 +796,12 @@ window.FENACANTO_DATA = {
         "Abertura oficial",
         "Reconhecimentos e apresentações",
         "Acessibilidade, estacionamento e entrada do grupo: [A CONFIRMAR]"
-      ]
+      ],
+      "image": "assets/teatro-tobias-barreto.jpg"
     },
     {
       "name": "Del Mar Hotel",
       "kind": "Hospedagem, oficinas e jantar",
-      "image": "assets/del-mar-hotel.jpg",
       "address": "Av. Santos Dumont, 1500 — Coroa do Meio, Aracaju/SE — CEP 49035-785",
       "maps": "https://www.google.com/maps/search/?api=1&query=Del+Mar+Hotel+Aracaju",
       "waze": "https://www.waze.com/ul?q=Del%20Mar%20Hotel%20Aracaju&navigate=yes",
@@ -810,62 +809,63 @@ window.FENACANTO_DATA = {
         "Oficinas nos dias 25 e 26",
         "Jantar em 25/08",
         "Sala, credenciamento e ponto de saída: [A CONFIRMAR]"
-      ]
+      ],
+      "image": "assets/del-mar-hotel.jpg"
     },
     {
       "name": "APCEF/SE",
       "kind": "Confraternização de encerramento",
-      "image": "assets/apcef-se.jpg",
       "address": "Endereço e portaria de acesso: [A CONFIRMAR]",
       "maps": "https://www.google.com/maps/search/?api=1&query=APCEF+Sergipe+Aracaju",
       "waze": "https://www.waze.com/ul?q=APCEF%20Sergipe%20Aracaju&navigate=yes",
       "details": [
         "Forró em 26/08, às 20h",
         "Transporte e acesso de acompanhantes: [A CONFIRMAR]"
-      ]
+      ],
+      "image": "assets/apcef-se.jpg"
     }
   ],
   "tourism": [
     {
       "name": "Orla de Atalaia",
-      "image": "assets/orla-atalaia.jpg",
       "text": "Passeio leve junto ao mar, com áreas de convivência, calçadões e atrações próximas ao hotel.",
-      "route": "https://www.google.com/maps/search/?api=1&query=Orla+de+Atalaia+Aracaju"
+      "route": "https://www.google.com/maps/search/?api=1&query=Orla+de+Atalaia+Aracaju",
+      "image": "assets/orla-atalaia.jpg"
     },
     {
       "name": "Oceanário de Aracaju",
-      "image": "assets/oceanario-aracaju.jpg",
       "text": "Atração próxima à Orla de Atalaia, indicada como opção breve nos intervalos. Consulte horários antes de sair.",
-      "route": "https://www.google.com/maps/search/?api=1&query=Oceanario+de+Aracaju"
+      "route": "https://www.google.com/maps/search/?api=1&query=Oceanario+de+Aracaju",
+      "image": "assets/oceanario-aracaju.jpg"
     },
     {
       "name": "Museu da Gente Sergipana",
-      "image": "assets/museu-gente-sergipana.jpg",
       "text": "Experiência cultural dedicada à identidade, aos costumes e à memória de Sergipe. Confirme funcionamento e deslocamento.",
-      "route": "https://www.google.com/maps/search/?api=1&query=Museu+da+Gente+Sergipana"
+      "route": "https://www.google.com/maps/search/?api=1&query=Museu+da+Gente+Sergipana",
+      "image": "assets/museu-gente-sergipana.jpg"
     }
   ],
   "galleries": [
     {
       "year": "2025",
       "day": "Dia 1",
-      "image": "assets/galeria-2025-dia1.jpg",
       "text": "Abertura do III FenaCanto e encontro de vozes de todo o Brasil.",
-      "url": "https://www.fenacef.org.br/2025/08/19/987521629/"
+      "url": "https://www.fenacef.org.br/2025/08/19/987521629/",
+      "image": "assets/galeria-2025-dia1.jpg"
     },
     {
       "year": "2025",
       "day": "Dia 2",
-      "image": "assets/galeria-2025-dia2.jpg",
       "text": "Ensaios, apresentações e a energia coletiva dos corais.",
-      "url": "https://www.fenacef.org.br/2025/08/19/galeria-de-imagens-fenacanto-dia-1/"
+      "url": "https://www.fenacef.org.br/2025/08/19/galeria-de-imagens-fenacanto-dia-1/",
+      "image": "assets/galeria-2025-dia2.jpg"
     },
     {
       "year": "2025",
       "day": "Dia 3",
-      "image": "assets/galeria-2025-dia3.jpg",
       "text": "Encerramento, emoção, convivência e memória do encontro.",
-      "url": "https://www.fenacef.org.br/2025/08/21/987521972/"
+      "url": "https://www.fenacef.org.br/2025/08/21/987521972/",
+      "image": "assets/galeria-2025-dia3.jpg"
     }
   ],
   "video2025": "https://www.youtube.com/embed/JkFPvyKEZkE",
@@ -895,5 +895,218 @@ window.FENACANTO_DATA = {
       "value": "SAMU 192 • Bombeiros 193 • Polícia 190",
       "href": ""
     }
-  ]
+  ],
+  "inscritos": {
+    "updated": "28 de julho de 2026",
+    "total": 499,
+    "stateCount": 13,
+    "regionCount": 5,
+    "delegationCount": 14,
+    "stateDelegationCount": 13,
+    "profiles": [
+      {
+        "name": "Coralistas",
+        "count": 366
+      },
+      {
+        "name": "Convidados",
+        "count": 54
+      },
+      {
+        "name": "Acompanhantes",
+        "count": 48
+      },
+      {
+        "name": "Maestros",
+        "count": 16
+      },
+      {
+        "name": "Presidentes",
+        "count": 10
+      },
+      {
+        "name": "Organização",
+        "count": 5
+      }
+    ],
+    "regions": [
+      {
+        "name": "Norte",
+        "count": 30
+      },
+      {
+        "name": "Nordeste",
+        "count": 137
+      },
+      {
+        "name": "Centro-Oeste",
+        "count": 93
+      },
+      {
+        "name": "Sudeste",
+        "count": 135
+      },
+      {
+        "name": "Sul",
+        "count": 99
+      }
+    ],
+    "delegations": [
+      {
+        "nome": "Distrito Federal",
+        "uf": "DF",
+        "total": 64,
+        "coralistas": 55,
+        "acompanhantes": 5,
+        "convidados": 2,
+        "maestros": 1,
+        "presidentes": 1,
+        "organizacao": 0
+      },
+      {
+        "nome": "São Paulo",
+        "uf": "SP",
+        "total": 61,
+        "coralistas": 46,
+        "acompanhantes": 9,
+        "convidados": 4,
+        "maestros": 1,
+        "presidentes": 1,
+        "organizacao": 0
+      },
+      {
+        "nome": "Paraná",
+        "uf": "PR",
+        "total": 59,
+        "coralistas": 27,
+        "acompanhantes": 8,
+        "convidados": 22,
+        "maestros": 2,
+        "presidentes": 0,
+        "organizacao": 0
+      },
+      {
+        "nome": "Ceará",
+        "uf": "CE",
+        "total": 40,
+        "coralistas": 28,
+        "acompanhantes": 9,
+        "convidados": 2,
+        "maestros": 1,
+        "presidentes": 0,
+        "organizacao": 0
+      },
+      {
+        "nome": "Rio Grande Do Sul",
+        "uf": "RS",
+        "total": 40,
+        "coralistas": 30,
+        "acompanhantes": 4,
+        "convidados": 3,
+        "maestros": 2,
+        "presidentes": 1,
+        "organizacao": 0
+      },
+      {
+        "nome": "Minas Gerais",
+        "uf": "MG",
+        "total": 38,
+        "coralistas": 30,
+        "acompanhantes": 1,
+        "convidados": 5,
+        "maestros": 1,
+        "presidentes": 1,
+        "organizacao": 0
+      },
+      {
+        "nome": "Espírito Santo",
+        "uf": "ES",
+        "total": 36,
+        "coralistas": 27,
+        "acompanhantes": 0,
+        "convidados": 7,
+        "maestros": 1,
+        "presidentes": 1,
+        "organizacao": 0
+      },
+      {
+        "nome": "Pernambuco",
+        "uf": "PE",
+        "total": 32,
+        "coralistas": 27,
+        "acompanhantes": 3,
+        "convidados": 0,
+        "maestros": 1,
+        "presidentes": 1,
+        "organizacao": 0
+      },
+      {
+        "nome": "Amazonas",
+        "uf": "AM",
+        "total": 30,
+        "coralistas": 22,
+        "acompanhantes": 3,
+        "convidados": 4,
+        "maestros": 1,
+        "presidentes": 0,
+        "organizacao": 0
+      },
+      {
+        "nome": "Mato Grosso",
+        "uf": "MT",
+        "total": 29,
+        "coralistas": 25,
+        "acompanhantes": 1,
+        "convidados": 0,
+        "maestros": 2,
+        "presidentes": 1,
+        "organizacao": 0
+      },
+      {
+        "nome": "Bahia",
+        "uf": "BA",
+        "total": 26,
+        "coralistas": 20,
+        "acompanhantes": 2,
+        "convidados": 2,
+        "maestros": 1,
+        "presidentes": 1,
+        "organizacao": 0
+      },
+      {
+        "nome": "Alagoas",
+        "uf": "AL",
+        "total": 24,
+        "coralistas": 16,
+        "acompanhantes": 3,
+        "convidados": 3,
+        "maestros": 1,
+        "presidentes": 1,
+        "organizacao": 0
+      },
+      {
+        "nome": "Sergipe",
+        "uf": "SE",
+        "total": 15,
+        "coralistas": 13,
+        "acompanhantes": 0,
+        "convidados": 0,
+        "maestros": 1,
+        "presidentes": 1,
+        "organizacao": 0
+      },
+      {
+        "nome": "FENACEF",
+        "uf": "",
+        "total": 5,
+        "coralistas": 0,
+        "acompanhantes": 0,
+        "convidados": 0,
+        "maestros": 0,
+        "presidentes": 0,
+        "organizacao": 5
+      }
+    ],
+    "privacyNote": "Para preservar os dados pessoais, o guia apresenta somente informações consolidadas. Nomes, CPFs e demais dados individuais não são publicados."
+  }
 };
