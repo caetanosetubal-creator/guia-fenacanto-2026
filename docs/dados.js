@@ -849,18 +849,21 @@ window.FENACANTO_DATA = {
     {
       "year": "2025",
       "day": "Dia 1",
+      "image": "assets/galeria-2025-dia1.jpg",
       "text": "Abertura do III FenaCanto e encontro de vozes de todo o Brasil.",
       "url": "https://www.fenacef.org.br/2025/08/19/987521629/"
     },
     {
       "year": "2025",
       "day": "Dia 2",
+      "image": "assets/galeria-2025-dia2.jpg",
       "text": "Ensaios, apresentações e a energia coletiva dos corais.",
       "url": "https://www.fenacef.org.br/2025/08/19/galeria-de-imagens-fenacanto-dia-1/"
     },
     {
       "year": "2025",
       "day": "Dia 3",
+      "image": "assets/galeria-2025-dia3.jpg",
       "text": "Encerramento, emoção, convivência e memória do encontro.",
       "url": "https://www.fenacef.org.br/2025/08/21/987521972/"
     }
