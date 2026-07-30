@@ -1,7 +1,7 @@
 window.FENACANTO_DATA = {
   "meta": {
-    "title": "Guia Oficial do Participante — FenaCanto 2026",
-    "description": "Programação, corais, participantes, locais, orientações, turismo e memórias do IV FenaCanto, em Aracaju/SE.",
+    "title": "Guia Oficial do Participante – FENACANTO 2026",
+    "description": "Programação, corais, participantes, locais, orientações, turismo e memórias do IV FENACANTO, em Aracaju/SE.",
     "updated": "30 de julho de 2026",
     "status": "Versão revisada para validação institucional"
   },
@@ -18,13 +18,13 @@ window.FENACANTO_DATA = {
       "name": "Valfrido Oliveira",
       "role": "Presidente da FENACEF",
       "photo": "assets/valfrido-oliveira.jpg",
-      "text": "Recebemos com especial satisfação autoridades, convidados, maestros, regentes, coralistas e representantes das instituições participantes. A dedicação de cada grupo fortalece a tradição do canto coral e engrandece este encontro. A música ultrapassa o aspecto artístico: representa disciplina, cooperação, respeito às diferenças e construção coletiva. Que o IV FenaCanto fortaleça vínculos, estimule novas parcerias e reafirme a cultura como instrumento de integração, cidadania e desenvolvimento. Sejam todos muito bem-vindos."
+      "text": "Recebemos com especial satisfação autoridades, convidados, maestros, regentes, coralistas e representantes das instituições participantes. A dedicação de cada grupo fortalece a tradição do canto coral e engrandece este encontro. A música ultrapassa o aspecto artístico: representa disciplina, cooperação, respeito às diferenças e construção coletiva. Que o IV FENACANTO fortaleça vínculos, estimule novas parcerias e reafirme a cultura como instrumento de integração, cidadania e desenvolvimento. Sejam todos muito bem-vindos."
     },
     {
       "name": "Vânia Lacerda",
-      "role": "Diretora de Eventos — FENACEF",
+      "role": "Diretora de Eventos – FENACEF",
       "photo": "assets/vania-lacerda.jpg",
-      "text": "É com alegria e gratidão que damos as boas-vindas a coralistas, maestros, músicos, autoridades, convidados e ao público do IV FenaCanto. Celebramos mais que apresentações: celebramos amizade, cultura e a força da música coral para aproximar pessoas, histórias e lugares. Que estes dias sejam marcados por interpretações inspiradoras, convivência e integração. Agradecemos a cada coral e à AEA/SE pelo empenho na realização deste encontro. Sintam-se em casa e aproveitem cada momento."
+      "text": "É com alegria e gratidão que damos as boas-vindas a coralistas, maestros, músicos, autoridades, convidados e ao público do IV FENACANTO. Celebramos mais que apresentações: celebramos amizade, cultura e a força da música coral para aproximar pessoas, histórias e lugares. Que estes dias sejam marcados por interpretações inspiradoras, convivência e integração. Agradecemos a cada coral e à AEA/SE pelo empenho na realização deste encontro. Sintam-se em casa e aproveitem cada momento."
     }
   ],
   "programacao": [
@@ -89,31 +89,31 @@ window.FENACANTO_DATA = {
         },
         {
           "time": "20h",
-          "title": "APOSCEF em Canto — AEA/SE",
+          "title": "APOSCEF em Canto – AEA/SE",
           "type": "apresentacao",
           "place": "Teatro Tobias Barreto"
         },
         {
           "time": "20h30",
-          "title": "Coral AEA/PR — Curitiba",
+          "title": "Coral AEA/PR – Curitiba",
           "type": "apresentacao",
           "place": "Teatro Tobias Barreto"
         },
         {
           "time": "21h",
-          "title": "AEA Encanto — AEA/MG",
+          "title": "AEA Encanto – AEA/MG",
           "type": "apresentacao",
           "place": "Teatro Tobias Barreto"
         },
         {
           "time": "21h30",
-          "title": "Renovação — AGEA/RS",
+          "title": "Renovação – AGEA/RS",
           "type": "apresentacao",
           "place": "Teatro Tobias Barreto"
         },
         {
           "time": "22h",
-          "title": "Espírito Canto — AEA/ES",
+          "title": "Espírito Canto – AEA/ES",
           "type": "apresentacao",
           "place": "Teatro Tobias Barreto"
         }
@@ -150,19 +150,19 @@ window.FENACANTO_DATA = {
         },
         {
           "time": "18h",
-          "title": "Aquarela — AEA/BA",
+          "title": "Aquarela – AEA/BA",
           "type": "apresentacao",
           "place": "Teatro Tobias Barreto"
         },
         {
           "time": "18h30",
-          "title": "Nosso Tom — Caxias/RS",
+          "title": "Nosso Tom – Caxias/RS",
           "type": "apresentacao",
           "place": "Teatro Tobias Barreto"
         },
         {
           "time": "19h",
-          "title": "AEAP em Canto — AEAP/PE",
+          "title": "AEAP em Canto – AEAP/PE",
           "type": "apresentacao",
           "place": "Teatro Tobias Barreto"
         },
@@ -174,7 +174,7 @@ window.FENACANTO_DATA = {
         },
         {
           "time": "20h",
-          "title": "Coral Alagoas — AEA/AL",
+          "title": "Coral Alagoas – AEA/AL",
           "type": "apresentacao",
           "place": "Teatro Tobias Barreto"
         },
@@ -211,19 +211,19 @@ window.FENACANTO_DATA = {
         },
         {
           "time": "16h",
-          "title": "Grupo Vocal em Canto — Londrina/PR",
+          "title": "Grupo Vocal em Canto – Londrina/PR",
           "type": "apresentacao",
           "place": "Teatro Tobias Barreto"
         },
         {
           "time": "16h30",
-          "title": "Vozes — AEA/AM",
+          "title": "Vozes – AEA/AM",
           "type": "apresentacao",
           "place": "Teatro Tobias Barreto"
         },
         {
           "time": "17h",
-          "title": "Canto do Cerrado — AEA/DF",
+          "title": "Canto do Cerrado – AEA/DF",
           "type": "apresentacao",
           "place": "Teatro Tobias Barreto"
         },
@@ -235,7 +235,7 @@ window.FENACANTO_DATA = {
         },
         {
           "time": "18h",
-          "title": "Flor de Carambá — AMEA/MT",
+          "title": "Flor de Carambá – AMEA/MT",
           "type": "apresentacao",
           "place": "Teatro Tobias Barreto"
         },
@@ -292,7 +292,7 @@ window.FENACANTO_DATA = {
       "state": "PR",
       "region": "Sul",
       "association": "AEA/PR",
-      "name": "Coral AEA/PR — Curitiba",
+      "name": "Coral AEA/PR – Curitiba",
       "conductor": "Patrick Kondlatsch",
       "songs": [
         [
@@ -447,7 +447,7 @@ window.FENACANTO_DATA = {
       "state": "RS",
       "region": "Sul",
       "association": "AGEA/RS",
-      "name": "Nosso Tom — Caxias/RS",
+      "name": "Nosso Tom – Caxias/RS",
       "conductor": "Dâmaris Agnes Gianni",
       "professionals": "Cibele Tedesco",
       "songs": [
@@ -512,7 +512,7 @@ window.FENACANTO_DATA = {
       "association": "ACEA/CE",
       "name": "Coral da ACEA/CE",
       "conductor": "Rogério Jales",
-      "professionals": "Cecília Moreira — maestrina auxiliar",
+      "professionals": "Cecília Moreira – maestrina auxiliar",
       "songs": [
         [
           "Esperando na Janela",
@@ -544,7 +544,7 @@ window.FENACANTO_DATA = {
       "association": "AEA/AL",
       "name": "Coral Alagoas",
       "conductor": "Wandeberg Santos",
-      "professionals": "Esly de Albuquerque Pereira — pianista",
+      "professionals": "Esly de Albuquerque Pereira – pianista",
       "songs": [
         [
           "Tollite Hostias",
@@ -574,9 +574,9 @@ window.FENACANTO_DATA = {
       "state": "PR",
       "region": "Sul",
       "association": "AEA/PR",
-      "name": "Grupo Vocal em Canto — Londrina",
+      "name": "Grupo Vocal em Canto – Londrina",
       "conductor": "Fernando Martins de Oliveira",
-      "professionals": "Ramon Maciel Romano — viola e violão",
+      "professionals": "Ramon Maciel Romano – viola e violão",
       "songs": [
         [
           "Tic Tac",
@@ -613,7 +613,7 @@ window.FENACANTO_DATA = {
       "association": "AEA/AM",
       "name": "Vozes",
       "conductor": "Marcelo Leite Bargas",
-      "professionals": "Humberto Vieira — preparador vocal",
+      "professionals": "Humberto Vieira – preparador vocal",
       "songs": [
         [
           "Aonde Quer que Eu Vá",
@@ -708,7 +708,7 @@ window.FENACANTO_DATA = {
       "association": "AMEA/MT",
       "name": "Flor de Carambá",
       "conductor": "Vinicius da Cruz",
-      "professionals": "Rô Manu — preparadora vocal",
+      "professionals": "Rô Manu – preparadora vocal",
       "songs": [
         [
           "Cuiabá, Muito Prazer / Manifesto Calorista",
@@ -765,7 +765,7 @@ window.FENACANTO_DATA = {
     {
       "name": "Teatro Tobias Barreto",
       "kind": "Apresentações e cerimônias",
-      "address": "Av. Presidente Tancredo Neves, 2209 — Inácio Barbosa, Aracaju/SE",
+      "address": "Av. Presidente Tancredo Neves, 2209 – Inácio Barbosa, Aracaju/SE",
       "maps": "https://www.google.com/maps/search/?api=1&query=Teatro+Tobias+Barreto+Aracaju",
       "waze": "https://www.waze.com/ul?q=Teatro%20Tobias%20Barreto%20Aracaju&navigate=yes",
       "details": [
@@ -777,7 +777,7 @@ window.FENACANTO_DATA = {
     {
       "name": "Del Mar Hotel",
       "kind": "Hospedagem, oficinas e jantar",
-      "address": "Av. Santos Dumont, 1500 — Coroa do Meio, Aracaju/SE — CEP 49035-785",
+      "address": "Av. Santos Dumont, 1500 – Coroa do Meio, Aracaju/SE – CEP 49035-785",
       "maps": "https://www.google.com/maps/search/?api=1&query=Del+Mar+Hotel+Aracaju",
       "waze": "https://www.waze.com/ul?q=Del%20Mar%20Hotel%20Aracaju&navigate=yes",
       "details": [
@@ -789,7 +789,7 @@ window.FENACANTO_DATA = {
     {
       "name": "APCEF/SE",
       "kind": "Confraternização de encerramento",
-      "address": "Av. Melício Machado, 820 — Aeroporto, Aracaju/SE",
+      "address": "Av. Melício Machado, 820 – Aeroporto, Aracaju/SE",
       "maps": "https://www.google.com/maps/search/?api=1&query=APCEF+Sergipe+Aracaju",
       "waze": "https://www.waze.com/ul?q=APCEF%20Sergipe%20Aracaju&navigate=yes",
       "details": [
@@ -822,7 +822,7 @@ window.FENACANTO_DATA = {
     {
       "year": "2025",
       "day": "Dia 1",
-      "text": "Abertura do III FenaCanto e encontro de vozes de todo o Brasil.",
+      "text": "Abertura do III FENACANTO e encontro de vozes de todo o Brasil.",
       "url": "https://www.fenacef.org.br/2025/08/19/987521629/",
       "image": "assets/galeria-2025-dia1.jpg"
     },
@@ -844,8 +844,8 @@ window.FENACANTO_DATA = {
   "video2025": "https://www.youtube.com/embed/JkFPvyKEZkE",
   "contacts": [
     {
-      "name": "Coordenação do FenaCanto",
-      "value": "Vânia Lacerda — Diretora de Eventos",
+      "name": "Coordenação do FENACANTO",
+      "value": "Vânia Lacerda – Diretora de Eventos",
       "href": ""
     },
     {
@@ -859,7 +859,7 @@ window.FENACANTO_DATA = {
       "href": "mailto:contato@fenacef.org.br"
     },
     {
-      "name": "Del Mar — Eventos",
+      "name": "Del Mar – Eventos",
       "value": "(79) 99805-4847",
       "href": "tel:+5579998054847"
     },
