@@ -1,9 +1,9 @@
 window.FENACANTO_DATA = {
   "meta": {
     "title": "Guia Oficial do Participante — FenaCanto 2026",
-    "description": "Programação, corais, locais, orientações, turismo, galerias e avisos do IV FenaCanto, em Aracaju/SE.",
-    "updated": "30 de julho de 2026, 10h13",
-    "status": "Versão preliminar • conteúdo em validação"
+    "description": "Programação, corais, participantes, locais, orientações, turismo e memórias do IV FenaCanto, em Aracaju/SE.",
+    "updated": "30 de julho de 2026",
+    "status": "Versão revisada para validação institucional"
   },
   "summary": {
     "dates": "23 a 26 de agosto de 2026",
@@ -18,13 +18,13 @@ window.FENACANTO_DATA = {
       "name": "Valfrido Oliveira",
       "role": "Presidente da FENACEF",
       "photo": "assets/valfrido-oliveira.jpg",
-      "text": "Excelentíssimas autoridades, ilustres convidados, representantes das instituições participantes, maestros, regentes, coralistas, senhoras e senhores. Recebemos, com especial satisfação, os corais participantes, que, por meio da dedicação de seus integrantes e da excelência de seus trabalhos, contribuem para a preservação e o fortalecimento da tradição do canto coral. A música coral transcende o aspecto artístico: representa disciplina, cooperação, respeito às diferenças e construção coletiva. Que este encontro fortaleça os vínculos entre as instituições participantes, estimule novas parcerias e reafirme a música como instrumento de integração, cidadania e desenvolvimento cultural. Sejam todos muito bem-vindos."
+      "text": "Recebemos com especial satisfação autoridades, convidados, maestros, regentes, coralistas e representantes das instituições participantes. A dedicação de cada grupo fortalece a tradição do canto coral e engrandece este encontro. A música ultrapassa o aspecto artístico: representa disciplina, cooperação, respeito às diferenças e construção coletiva. Que o IV FenaCanto fortaleça vínculos, estimule novas parcerias e reafirme a cultura como instrumento de integração, cidadania e desenvolvimento. Sejam todos muito bem-vindos."
     },
     {
       "name": "Vânia Lacerda",
       "role": "Diretora de Eventos — FENACEF",
       "photo": "assets/vania-lacerda.jpg",
-      "text": "É com imensa alegria e profundo sentimento de gratidão que damos as boas-vindas a cada coralista, maestro, músico, autoridade, convidado e ao nosso querido público para este IV FenaCanto. Celebramos muito mais do que apresentações musicais: celebramos a união, a amizade, a cultura e a beleza da música coral, capaz de tocar corações, despertar emoções e aproximar pessoas de diferentes histórias e lugares. Que estes dias sejam marcados por apresentações inspiradoras, confraternização e pela certeza de que a música continua sendo uma das mais belas formas de promover paz, esperança e integração. Sintam-se em casa e desfrutem de cada apresentação."
+      "text": "É com alegria e gratidão que damos as boas-vindas a coralistas, maestros, músicos, autoridades, convidados e ao público do IV FenaCanto. Celebramos mais que apresentações: celebramos amizade, cultura e a força da música coral para aproximar pessoas, histórias e lugares. Que estes dias sejam marcados por interpretações inspiradoras, convivência e integração. Agradecemos a cada coral e à AEA/SE pelo empenho na realização deste encontro. Sintam-se em casa e aproveitem cada momento."
     }
   ],
   "programacao": [
@@ -37,14 +37,13 @@ window.FENACANTO_DATA = {
           "time": "15h",
           "title": "Check-in nos hotéis",
           "type": "chegada",
-          "place": "Hotéis das delegações",
-          "note": "Horários e procedimentos específicos por delegação: [A CONFIRMAR]."
+          "place": "Hotéis das delegações"
         },
         {
           "time": "15h",
           "title": "Credenciamento",
           "type": "organizacao",
-          "place": "[A CONFIRMAR]",
+          "place": "",
           "note": "Levar documento e identificação da delegação, conforme orientação da coordenação."
         }
       ]
@@ -79,8 +78,7 @@ window.FENACANTO_DATA = {
           "time": "17h",
           "title": "Saída dos hotéis",
           "type": "transporte",
-          "place": "Destino: Teatro Tobias Barreto",
-          "note": "Pontos de encontro e transporte: [A CONFIRMAR]."
+          "place": "Destino: Teatro Tobias Barreto"
         },
         {
           "time": "19h",
@@ -130,8 +128,7 @@ window.FENACANTO_DATA = {
           "time": "10h",
           "title": "Oficina",
           "type": "oficina",
-          "place": "Del Mar Hotel",
-          "note": "Tema, sala e facilitador: [A CONFIRMAR]."
+          "place": "Del Mar Hotel"
         },
         {
           "time": "12h",
@@ -179,15 +176,13 @@ window.FENACANTO_DATA = {
           "time": "20h",
           "title": "Coral Alagoas — AEA/AL",
           "type": "apresentacao",
-          "place": "Teatro Tobias Barreto",
-          "note": "Nome no quadro-resumo original aparece com variação; grafia final: [A CONFIRMAR]."
+          "place": "Teatro Tobias Barreto"
         },
         {
           "time": "21h",
           "title": "Jantar",
           "type": "confraternizacao",
-          "place": "Del Mar Hotel",
-          "note": "Formato e acesso de acompanhantes: [A CONFIRMAR]."
+          "place": "Del Mar Hotel"
         }
       ]
     },
@@ -200,8 +195,7 @@ window.FENACANTO_DATA = {
           "time": "10h",
           "title": "Oficina",
           "type": "oficina",
-          "place": "Del Mar Hotel",
-          "note": "Tema, sala e facilitador: [A CONFIRMAR]."
+          "place": "Del Mar Hotel"
         },
         {
           "time": "12h",
@@ -231,8 +225,7 @@ window.FENACANTO_DATA = {
           "time": "17h",
           "title": "Canto do Cerrado — AEA/DF",
           "type": "apresentacao",
-          "place": "Teatro Tobias Barreto",
-          "note": "No quadro-resumo aparece “Serrado”; grafia oficial: [A CONFIRMAR]."
+          "place": "Teatro Tobias Barreto"
         },
         {
           "time": "17h30",
@@ -244,8 +237,7 @@ window.FENACANTO_DATA = {
           "time": "18h",
           "title": "Flor de Carambá — AMEA/MT",
           "type": "apresentacao",
-          "place": "Teatro Tobias Barreto",
-          "note": "No quadro-resumo aparece “Cambará”; grafia oficial: [A CONFIRMAR]."
+          "place": "Teatro Tobias Barreto"
         },
         {
           "time": "18h30",
@@ -257,8 +249,7 @@ window.FENACANTO_DATA = {
           "time": "20h",
           "title": "Forró de confraternização",
           "type": "confraternizacao",
-          "place": "APCEF/SE",
-          "note": "Transporte, traje e acesso de acompanhantes: [A CONFIRMAR]."
+          "place": "APCEF/SE"
         }
       ]
     }
@@ -455,7 +446,7 @@ window.FENACANTO_DATA = {
       "time": "18h30",
       "state": "RS",
       "region": "Sul",
-      "association": "[ASSOCIAÇÃO A CONFIRMAR]",
+      "association": "AGEA/RS",
       "name": "Nosso Tom — Caxias/RS",
       "conductor": "Dâmaris Agnes Gianni",
       "professionals": "Cibele Tedesco",
@@ -558,7 +549,7 @@ window.FENACANTO_DATA = {
         [
           "Tollite Hostias",
           "Camille Saint-Saëns",
-          "[A CONFIRMAR]"
+          ""
         ],
         [
           "Eres Tú",
@@ -590,7 +581,7 @@ window.FENACANTO_DATA = {
         [
           "Tic Tac",
           "Braulino Lima",
-          "[A CONFIRMAR]"
+          ""
         ],
         [
           "Sabiá",
@@ -655,7 +646,6 @@ window.FENACANTO_DATA = {
       "name": "Canto do Cerrado",
       "conductor": "Michael Daniel Moran",
       "professionals": "Osmundo Neto",
-      "note": "Grafia no quadro-resumo: “Canto do Serrado”. Confirmar nome oficial.",
       "songs": [
         [
           "Kyrie",
@@ -719,7 +709,6 @@ window.FENACANTO_DATA = {
       "name": "Flor de Carambá",
       "conductor": "Vinicius da Cruz",
       "professionals": "Rô Manu — preparadora vocal",
-      "note": "Grafia no quadro-resumo: “Flor de Cambará”. Confirmar nome oficial.",
       "songs": [
         [
           "Cuiabá, Muito Prazer / Manifesto Calorista",
@@ -771,20 +760,7 @@ window.FENACANTO_DATA = {
       "states": 1
     }
   ],
-  "alerts": [
-    {
-      "date": "30/07/2026",
-      "title": "Inscrições consolidadas no guia",
-      "text": "O painel de participantes foi atualizado com 499 inscrições registradas até 28 de julho, apresentadas de forma agregada por delegação, região e perfil de participação.",
-      "tag": "Atualização"
-    },
-    {
-      "date": "30/07/2026",
-      "title": "Revisão de grafias",
-      "text": "Há divergências entre o quadro-resumo e as fichas detalhadas de alguns corais. Os pontos foram sinalizados com [A CONFIRMAR] para validação da coordenação.",
-      "tag": "Importante"
-    }
-  ],
+  "alerts": [],
   "places": [
     {
       "name": "Teatro Tobias Barreto",
@@ -794,8 +770,7 @@ window.FENACANTO_DATA = {
       "waze": "https://www.waze.com/ul?q=Teatro%20Tobias%20Barreto%20Aracaju&navigate=yes",
       "details": [
         "Abertura oficial",
-        "Reconhecimentos e apresentações",
-        "Acessibilidade, estacionamento e entrada do grupo: [A CONFIRMAR]"
+        "Reconhecimentos e apresentações"
       ],
       "image": "assets/teatro-tobias-barreto.jpg"
     },
@@ -807,20 +782,18 @@ window.FENACANTO_DATA = {
       "waze": "https://www.waze.com/ul?q=Del%20Mar%20Hotel%20Aracaju&navigate=yes",
       "details": [
         "Oficinas nos dias 25 e 26",
-        "Jantar em 25/08",
-        "Sala, credenciamento e ponto de saída: [A CONFIRMAR]"
+        "Jantar em 25/08"
       ],
       "image": "assets/del-mar-hotel.jpg"
     },
     {
       "name": "APCEF/SE",
       "kind": "Confraternização de encerramento",
-      "address": "Endereço e portaria de acesso: [A CONFIRMAR]",
+      "address": "Av. Melício Machado, 820 — Aeroporto, Aracaju/SE",
       "maps": "https://www.google.com/maps/search/?api=1&query=APCEF+Sergipe+Aracaju",
       "waze": "https://www.waze.com/ul?q=APCEF%20Sergipe%20Aracaju&navigate=yes",
       "details": [
-        "Forró em 26/08, às 20h",
-        "Transporte e acesso de acompanhantes: [A CONFIRMAR]"
+        "Forró de confraternização em 26/08, às 20h"
       ],
       "image": "assets/apcef-se.jpg"
     }
@@ -872,7 +845,7 @@ window.FENACANTO_DATA = {
   "contacts": [
     {
       "name": "Coordenação do FenaCanto",
-      "value": "[A CONFIRMAR]",
+      "value": "Vânia Lacerda — Diretora de Eventos",
       "href": ""
     },
     {
@@ -882,8 +855,8 @@ window.FENACANTO_DATA = {
     },
     {
       "name": "E-mail institucional",
-      "value": "contato@fenacef.com.br",
-      "href": "mailto:contato@fenacef.com.br"
+      "value": "contato@fenacef.org.br",
+      "href": "mailto:contato@fenacef.org.br"
     },
     {
       "name": "Del Mar — Eventos",
@@ -997,7 +970,7 @@ window.FENACANTO_DATA = {
         "organizacao": 0
       },
       {
-        "nome": "Rio Grande Do Sul",
+        "nome": "Rio Grande do Sul",
         "uf": "RS",
         "total": 40,
         "coralistas": 30,
