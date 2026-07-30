@@ -51,18 +51,78 @@
 @media(max-width:900px){html{scroll-padding-top:74px}.topbar-inner{display:flex;position:relative;min-height:70px;padding:10px 16px}.brand-mini{margin:0}.brand-copy small{display:block}.menu-toggle{display:inline-flex}.nav{position:absolute;left:0;right:0;top:100%;display:grid;gap:0;margin:0;padding:0 16px;max-height:0;overflow:hidden;opacity:0;background:#102e4b;border-bottom:1px solid rgba(255,255,255,.12);box-shadow:0 18px 30px rgba(5,24,40,.24);transition:max-height .25s ease,opacity .2s ease,padding .25s ease}.nav.open{max-height:430px;opacity:1;padding:8px 16px 16px}.nav a{min-height:48px;padding:0 4px;border-bottom:1px solid rgba(255,255,255,.09)}.nav a:last-child{border-bottom:0}.nav a:after{left:4px;right:auto;width:32px}.hero-info{grid-template-columns:1fr 1fr}.hero-info-item{padding-right:18px;margin-right:18px}.hero-info-update{grid-column:1/-1;justify-self:start;margin-top:13px;text-align:left}.quick-grid{grid-template-columns:repeat(2,1fr)}.quick-card{border-right:1px solid var(--line);border-bottom:1px solid var(--line)}.quick-card:first-child{border-left:0}.quick-card:nth-child(even){border-right:0}.quick-card:last-child{grid-column:1/-1;border-right:0;border-bottom:0}}
 @media(max-width:620px){.brand-mini img{width:40px;height:40px}.brand-copy strong{font-size:.91rem}.brand-copy small{font-size:.62rem}.hero-info{grid-template-columns:1fr;gap:12px}.hero-info-item{padding:0 0 12px;margin:0;border-right:0;border-bottom:1px solid rgba(255,255,255,.14)}.hero-info-update{grid-column:auto;margin-top:0}.quick-grid{grid-template-columns:1fr 1fr}.quick-card{min-height:84px;padding:16px 14px}.quick-card b{font-size:1.05rem}.quick-card span{font-size:.66rem}}
 @media print{.topbar,.hero-actions,.print-btn,.backtop,.mobile-actions,.filters,.tabs,.btn{display:none!important}body{background:#fff;font-size:11pt}.hero{min-height:auto;background:#fff!important;color:#111;page-break-after:always}.hero:before,.hero:after,.staff{display:none}.hero-inner{display:block;padding:20px}.hero-logo{filter:none;background:#0e2943;border-radius:18px;padding:16px;max-height:260px;width:auto}.hero p,.hero-info strong,.hero-info-update{color:#333}.eyebrow{color:#111;border-color:#999;background:#eee}.quick-grid{margin:0;box-shadow:none}.section{padding:30px 0}.card,.coral-card,.time-item{box-shadow:none;break-inside:avoid}.day-panel{display:block!important}.coral-grid{grid-template-columns:repeat(2,1fr)}details{display:block}details>summary{display:none}details>*{display:block!important}.printing main>section:not(.print-only-target){display:none!important}.printing .hero,.printing .quick-zone{display:none!important}.printing .print-only-target{padding-top:10px}}
+
+/* Galerias — imagem e conteúdo integrados em um card editorial */
+.gallery-card{display:flex;min-height:100%;flex-direction:column;overflow:hidden;padding:0;background:#fff;color:var(--ink);border:1px solid var(--line);border-radius:20px;box-shadow:0 8px 24px rgba(21,53,75,.06)}
+.gallery-card:after{display:none}
+.gallery-media{position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;background:#dfe9ed;border-bottom:4px solid var(--turq)}
+.gallery-media img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .25s ease}
+.gallery-card:hover .gallery-media img{transform:scale(1.025)}
+.gallery-body{display:flex;flex:1;flex-direction:column;padding:22px 24px 24px}
+.gallery-year{margin-bottom:7px;color:var(--teal);font-size:.75rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase}
+.gallery-card h3{margin:0 0 10px;color:var(--navy);font-size:1.45rem}
+.gallery-card p{margin:0 0 22px;color:var(--muted)}
+.gallery-link{display:inline-flex;align-items:center;gap:10px;align-self:flex-start;margin-top:auto;color:var(--navy);font-weight:900;text-decoration:none;border-bottom:2px solid var(--turq);padding-bottom:3px}
+.gallery-link span{transition:transform .2s ease}.gallery-link:hover span{transform:translateX(4px)}
+
+/* Participantes e mapa */
+.participants-kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:22px}
+.participant-kpi{position:relative;overflow:hidden;background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px 20px 18px}
+.participant-kpi:before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--turq)}
+.participant-kpi strong{display:block;color:var(--navy);font-size:2rem;line-height:1;font-weight:950}
+.participant-kpi span{display:block;margin-top:8px;color:var(--muted);font-size:.82rem;font-weight:700}
+.participants-layout{display:grid;grid-template-columns:1.08fr .92fr;gap:18px}
+.participant-panel{background:#fff;border:1px solid var(--line);border-radius:22px;padding:24px;box-shadow:0 8px 24px rgba(21,53,75,.05)}
+.panel-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;margin-bottom:18px}
+.panel-heading span,.profile-heading span{display:block;color:var(--teal);font-size:.72rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase}
+.panel-heading h3,.profile-heading h3{margin:4px 0 0;color:var(--navy);font-size:1.3rem}
+.panel-heading small{color:var(--muted);text-align:right}
+.brazil-map-wrap{position:relative;min-height:410px;display:grid;place-items:center;border-radius:18px;background:linear-gradient(180deg,#f6fbfc,#eef6f8);overflow:hidden}
+#brazil-map{display:block;width:100%;height:auto;max-height:430px}
+.brazil-state{stroke:#fff;stroke-width:1.15;vector-effect:non-scaling-stroke;transition:opacity .15s ease,filter .15s ease}
+.brazil-state.has-participants{cursor:pointer}
+.brazil-state.has-participants:hover{filter:brightness(.92);opacity:.95}
+.map-status{position:absolute;inset:0;display:grid;place-items:center;color:var(--muted);font-size:.9rem}
+.map-tooltip{position:absolute;z-index:3;pointer-events:none;min-width:150px;padding:10px 12px;border-radius:10px;background:#102e4b;color:#fff;box-shadow:0 10px 30px rgba(6,28,48,.22);font-size:.8rem}
+.map-tooltip strong{display:block;font-size:.95rem}.map-tooltip span{color:#bdecef}
+.map-legend{display:flex;gap:18px;flex-wrap:wrap;margin-top:12px;color:var(--muted);font-size:.77rem}
+.map-legend span{display:flex;align-items:center;gap:7px}.map-legend i{width:16px;height:10px;border-radius:3px;border:1px solid #c9d9de}
+.legend-empty{background:#e6eef1}.legend-active{background:var(--teal)}
+.region-summary{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-top:18px}
+.region-chip{position:relative;overflow:hidden;padding:10px 10px 12px;border:1px solid var(--line);border-radius:12px;background:#fff}
+.region-chip span{display:block;color:var(--muted);font-size:.67rem}.region-chip b{display:block;color:var(--navy);font-size:1rem}
+.region-chip i{position:absolute;left:0;bottom:0;height:3px;background:var(--turq)}
+.delegation-row{display:grid;grid-template-columns:32px 1fr auto;align-items:center;gap:11px;padding:8px 0;border-bottom:1px solid #edf3f5}
+.delegation-row:last-of-type{border-bottom:0}
+.delegation-rank{color:#8ca0ad;font-size:.71rem;font-weight:900}
+.delegation-label{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:5px}
+.delegation-label b{color:var(--navy);font-size:.84rem}.delegation-label span{color:var(--teal);font-size:.68rem;font-weight:900}
+.delegation-track,.profile-track{height:6px;overflow:hidden;border-radius:999px;background:#e8f0f3}
+.delegation-track span,.profile-track span{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,var(--navy),var(--turq))}
+.delegation-total{color:var(--navy);font-size:.88rem}
+.institutional-row{display:flex;justify-content:space-between;margin-top:14px;padding:12px 14px;border-radius:12px;background:#eef8f8;color:var(--navy);font-size:.84rem}
+.profile-block{margin-top:18px;padding:24px;background:#fff;border:1px solid var(--line);border-radius:22px}
+.profile-heading{margin-bottom:16px}
+.profile-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.profile-item{padding:14px;border:1px solid var(--line);border-radius:14px}
+.profile-item>div:first-child{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:10px}
+.profile-item strong{color:var(--navy);font-size:1.35rem}.profile-item span{color:var(--muted);font-size:.76rem}
+.privacy-note{margin:14px 2px 0;color:var(--muted);font-size:.78rem}
+@media(max-width:900px){.participants-layout{grid-template-columns:1fr}.participants-kpis{grid-template-columns:repeat(2,1fr)}.region-summary{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:620px){.participants-kpis{grid-template-columns:1fr 1fr}.participant-kpi{padding:16px}.participant-kpi strong{font-size:1.55rem}.participant-panel,.profile-block{padding:18px}.brazil-map-wrap{min-height:330px}.region-summary{grid-template-columns:repeat(2,1fr)}.profile-grid{grid-template-columns:1fr 1fr}.panel-heading{display:block}.panel-heading small{display:block;margin-top:6px;text-align:left}}
+
 </style>
 </head><body>
 <a class="skip" href="#conteudo">Pular para o conteúdo</a>
-<header class="topbar"><div class="topbar-inner"><a class="brand-mini" href="#inicio"><img src="assets/fenacanto-logo-branco.png" alt="FenaCanto"><span class="brand-copy"><strong>Guia do Participante</strong><small>FenaCanto 2026</small></span></a><button class="menu-toggle" type="button" aria-label="Abrir menu" aria-controls="main-nav" aria-expanded="false"><span class="menu-toggle-lines"></span></button><nav class="nav" id="main-nav" aria-label="Navegação principal"><a href="#programacao">Programação</a><a href="#corais">Corais</a><a href="#locais">Locais</a><a href="#orientacoes">Orientações</a><a href="#memoria">Memória</a><a href="#contatos">Contatos</a></nav></div></header>
+<header class="topbar"><div class="topbar-inner"><a class="brand-mini" href="#inicio"><img src="assets/fenacanto-logo-branco.png" alt="FenaCanto"><span class="brand-copy"><strong>Guia do Participante</strong><small>FenaCanto 2026</small></span></a><button class="menu-toggle" type="button" aria-label="Abrir menu" aria-controls="main-nav" aria-expanded="false"><span class="menu-toggle-lines"></span></button><nav class="nav" id="main-nav" aria-label="Navegação principal"><a href="#programacao">Programação</a><a href="#corais">Corais</a><a href="#delegacoes">Participantes</a><a href="#locais">Locais</a><a href="#memoria">Memória</a><a href="#contatos">Contatos</a></nav></div></header>
 <main id="conteudo">
 <section class="hero" id="inicio"><div class="staff"></div><div class="hero-inner"><div><span class="eyebrow">Guia oficial • IV FenaCanto</span><h1>Vozes que se encontram.<span>Memórias que continuam cantando.</span></h1><p>Um guia vivo para acompanhar a programação, localizar espaços, conhecer os corais e receber atualizações antes, durante e depois do encontro.</p><div class="hero-actions"><a class="btn" href="#programacao">Ver programação</a><button class="btn secondary" onclick="window.print()">Imprimir / salvar em PDF</button></div><div class="hero-info" aria-label="Informações do evento"><div class="hero-info-item"><small>Data</small><strong>23 a 26 de agosto de 2026</strong></div><div class="hero-info-item"><small>Local</small><strong>Aracaju · Sergipe</strong></div><div class="hero-info-update">Atualizado em <b data-updated></b></div></div></div><div class="hero-logo-wrap"><img class="hero-logo" src="assets/fenacanto-logo-branco.png" alt="FenaCanto — Encontro de Corais FENACEF 2026"></div></div></section>
-<div class="quick-zone"><div class="container"><div class="quick-grid"><div class="quick-card"><b id="stat-dates"></b><span>Período do encontro</span></div><div class="quick-card"><b id="stat-city"></b><span>Cidade-sede</span></div><div class="quick-card"><b id="stat-choirs"></b><span>Corais previstos</span></div><div class="quick-card"><b id="stat-states"></b><span>Estados representados</span></div><div class="quick-card"><b id="stat-people"></b><span>Total de participantes</span></div></div><div class="status-line"><strong>Versão preliminar:</strong> programação e fichas incluídas a partir do material recebido. Pontos pendentes aparecem como <strong>[A CONFIRMAR]</strong>.</div></div></div>
+<div class="quick-zone"><div class="container"><div class="quick-grid"><div class="quick-card"><b id="stat-dates"></b><span>Período do encontro</span></div><div class="quick-card"><b id="stat-city"></b><span>Cidade-sede</span></div><div class="quick-card"><b id="stat-choirs"></b><span>Corais previstos</span></div><div class="quick-card"><b id="stat-states"></b><span>Estados representados</span></div><div class="quick-card"><b id="stat-people"></b><span>Total de participantes</span></div></div><div class="status-line"><strong>Painel atualizado:</strong> 499 inscrições consolidadas até 28 de julho. Informações operacionais ainda pendentes aparecem como <strong>[A CONFIRMAR]</strong>.</div></div></div>
 <section class="section" id="avisos"><div class="container"><div class="section-head"><div><div class="section-kicker">Atualizações rápidas</div><h2>Avisos oficiais</h2><p class="section-intro">Acompanhe alterações de horário, logística e orientações da coordenação.</p></div><button class="btn small print-btn" onclick="printSection('avisos')">Imprimir seção</button></div><div class="grid two" id="alerts"></div></div></section>
 <section class="section alt" id="boas-vindas"><div class="container"><div class="section-head"><div><div class="section-kicker">Boas-vindas</div><h2>Uma celebração construída por muitas vozes</h2><p class="section-intro">Mensagens institucionais para coralistas, regentes, acompanhantes, convidados e equipes de apoio.</p></div><button class="btn small print-btn" onclick="printSection('boas-vindas')">Imprimir seção</button></div><div class="grid two" id="messages"></div><div class="about-band" style="margin-top:22px"><h3>Sobre o FenaCanto</h3><p>O FenaCanto é o encontro nacional de corais das associações vinculadas à FENACEF. A edição de 2026 reúne grupos de diferentes regiões do país em uma programação dedicada à música, à convivência, à memória e ao pertencimento. Mais que uma sequência de apresentações, o encontro valoriza a participação ativa de aposentados e pensionistas da Caixa e a força da construção coletiva.</p></div></div></section>
 <section class="section" id="programacao"><div class="container"><div class="section-head"><div><div class="section-kicker">Agenda central</div><h2>Programação oficial</h2><p class="section-intro">Consulte por dia. Horários pendentes de validação estão sinalizados no próprio item.</p></div><button class="btn small print-btn" onclick="printSection('programacao')">Imprimir seção</button></div><div class="tabs" id="schedule-tabs"></div><div id="schedule-panels"></div></div></section>
 <section class="section alt" id="corais"><div class="container"><div class="section-head"><div><div class="section-kicker">Quem sobe ao palco</div><h2>Corais participantes</h2><p class="section-intro">Associação, estado, regência, horário e repertório informado pela organização.</p></div><button class="btn small print-btn" onclick="printSection('corais')">Imprimir seção</button></div><div class="filters"><input class="field" id="coral-search" type="search" placeholder="Buscar coral, associação ou maestro"><select class="field" id="filter-state"></select><select class="field" id="filter-day"></select></div><div class="coral-grid" id="corals"></div><div class="empty" id="empty-corals">Nenhum coral encontrado com os filtros selecionados.</div></div></section>
-<section class="section" id="delegacoes"><div class="container"><div class="section-head"><div><div class="section-kicker">Mapa do encontro</div><h2>Delegações de todo o Brasil</h2><p class="section-intro">Painel preliminar calculado a partir dos corais listados no material recebido.</p></div><button class="btn small print-btn" onclick="printSection('delegacoes')">Imprimir seção</button></div><div class="map-grid"><article class="card map-summary"><div class="big">15</div><h3>corais previstos</h3><p>13 estados, as cinco regiões brasileiras e um número de coralistas que ainda será consolidado.</p><div class="button-row"><span class="tag">Participantes: [A CONFIRMAR]</span></div></article><article class="card"><h3 style="margin-top:0;color:var(--navy)">Distribuição por região</h3><div id="regions"></div><p class="note">Cada barra representa o número de corais, não o total de pessoas. O painel será atualizado após o fechamento das delegações.</p></article></div></div></section>
+<section class="section" id="delegacoes"><div class="container"><div class="section-head"><div><div class="section-kicker">Brasil em coro</div><h2>Quem vem cantar</h2><p class="section-intro">Um retrato das inscrições confirmadas, com presença nacional, perfis de participação e o tamanho de cada delegação.</p></div><button class="btn small print-btn" onclick="printSection('delegacoes')">Imprimir seção</button></div><div class="participants-kpis" id="participants-kpis"></div><div class="participants-layout"><article class="participant-panel map-panel"><div class="panel-heading"><div><span>Presença nacional</span><h3>13 estados nas cinco regiões</h3></div><small>Dados até <b id="participants-updated"></b></small></div><div class="brazil-map-wrap"><svg id="brazil-map" viewBox="0 0 560 520" role="img" aria-label="Mapa do Brasil com os estados participantes destacados"></svg><div class="map-status" id="map-status">Carregando mapa de participação…</div><div class="map-tooltip" id="map-tooltip" hidden></div></div><div class="map-legend"><span><i class="legend-empty"></i>Sem delegação</span><span><i class="legend-active"></i>Com participantes</span></div><div class="region-summary" id="participant-regions"></div></article><article class="participant-panel ranking-panel"><div class="panel-heading"><div><span>Delegações</span><h3>Inscritos por origem</h3></div><small>Total consolidado</small></div><div id="delegation-ranking"></div></article></div><div class="profile-block"><div class="profile-heading"><div><span>Perfis de participação</span><h3>Uma comunidade formada por diferentes presenças</h3></div></div><div class="profile-grid" id="participant-profiles"></div></div><p class="privacy-note" id="participants-privacy"></p></div></section>
 <section class="section alt" id="locais"><div class="container"><div class="section-head"><div><div class="section-kicker">Como chegar</div><h2>Locais do evento</h2><p class="section-intro">Rotas rápidas para apresentações, oficinas, hospedagem e confraternização.</p></div><button class="btn small print-btn" onclick="printSection('locais')">Imprimir seção</button></div><div class="grid three" id="places"></div></div></section>
 <section class="section" id="orientacoes"><div class="container"><div class="section-head"><div><div class="section-kicker">Antes de sair</div><h2>Informações gerais e orientações</h2><p class="section-intro">Um checklist prático para participantes, coralistas e acompanhantes.</p></div><button class="btn small print-btn" onclick="printSection('orientacoes')">Imprimir seção</button></div><div class="orientation-grid"><article class="check-card"><h3>Chegada e identificação</h3><ul class="check-list"><li>Confirme o horário de saída de sua delegação.</li><li>Tenha documento, crachá e contato do responsável do grupo.</li><li>Chegue com antecedência aos reconhecimentos e apresentações.</li><li>Local exato do credenciamento: [A CONFIRMAR].</li></ul></article><article class="check-card"><h3>Coralistas e palco</h3><ul class="check-list"><li>Respeite a ordem de entrada e as orientações do regente.</li><li>Mantenha silêncio nas coxias e durante apresentações de outros grupos.</li><li>Traje oficial e local para troca: [A CONFIRMAR].</li><li>Evite levar objetos soltos ao palco.</li></ul></article><article class="check-card"><h3>Voz, hidratação e bem-estar</h3><ul class="check-list"><li>Hidrate-se ao longo do dia e evite esforço vocal desnecessário.</li><li>Informe à coordenação qualquer necessidade de mobilidade ou saúde.</li><li>Medicamentos pessoais devem permanecer sob responsabilidade do participante.</li><li>Procure apoio da equipe em caso de mal-estar.</li></ul></article><article class="check-card"><h3>Acompanhantes e convivência</h3><ul class="check-list"><li>Verifique acesso a jantar, oficinas e confraternização.</li><li>Fotos e vídeos devem respeitar a movimentação do palco e da plateia.</li><li>Mantenha horários e pontos de encontro combinados.</li><li>Transporte oficial e regras de acesso: [A CONFIRMAR].</li></ul></article></div></div></section>
 <section class="section alt" id="turismo"><div class="container"><div class="section-head"><div><div class="section-kicker">Tempo livre</div><h2>Turismo e experiências</h2><p class="section-intro">Sugestões breves para aproveitar Aracaju sem perder os compromissos do encontro.</p></div></div><div class="grid three" id="tourism"></div><div class="status-line">Consulte horários, ingressos e deslocamento antes da visita. Esta seção é apoio ao participante e não integra a programação oficial.</div></div></section>
@@ -95,14 +155,14 @@ function render(){
  document.querySelector('#filter-day').innerHTML='<option value="">Todos os dias</option>'+days.map(s=>`<option>${s}</option>`).join('');
  renderCorals();
  document.querySelectorAll('#coral-search,#filter-state,#filter-day').forEach(el=>el.addEventListener('input',renderCorals));
- document.querySelector('#regions').innerHTML=D.regionCounts.map(r=>`<div class="region-row"><b>${esc(r.name)}</b><div class="bar"><span style="width:${r.choirs/5*100}%"></span></div><span>${r.choirs} coral${r.choirs>1?'is':''}</span></div>`).join('');
+ renderParticipants();
  const places=Array.isArray(D.places)?D.places:[];
  document.querySelector('#places').innerHTML=places.map(p=>`<article class="card place-card">${p.image?`<img class="media-cover" src="${esc(p.image)}" alt="${esc(p.name)}" loading="lazy">`:''}<span class="tag">${esc(p.kind)}</span><h3>${esc(p.name)}</h3><address>${esc(p.address)}</address><ul>${(p.details||[]).map(x=>`<li>${esc(x)}</li>`).join('')}</ul><div class="button-row"><a class="btn small" href="${p.maps}" target="_blank" rel="noopener">Google Maps</a><a class="btn small light" href="${p.waze}" target="_blank" rel="noopener">Waze</a></div></article>`).join('');
  const tourism=Array.isArray(D.tourism)?D.tourism:[];
  const icons=['⌁','◉','✦'];
  document.querySelector('#tourism').innerHTML=tourism.map((t,i)=>`<article class="card tour-card">${t.image?`<img class="media-cover" src="${esc(t.image)}" alt="${esc(t.name)}" loading="lazy">`:`<div class="tour-icon">${icons[i%icons.length]}</div>`}<h3>${esc(t.name)}</h3><p>${esc(t.text)}</p><a class="btn small" href="${t.route}" target="_blank" rel="noopener">Abrir rota</a></article>`).join('');
  const galleries=Array.isArray(D.galleries)?D.galleries:[];
- document.querySelector('#galleries').innerHTML=galleries.map(g=>`<article class="card gallery-card">${g.image?`<img class="media-cover" src="${esc(g.image)}" alt="Capa da galeria ${esc(g.day)}" loading="lazy">`:''}<span class="tag">${esc(g.year)}</span><h3>Galeria ${esc(g.day)}</h3><p>${esc(g.text)}</p><a class="btn small" href="${g.url}" target="_blank" rel="noopener">Ver galeria</a></article>`).join('');
+ document.querySelector('#galleries').innerHTML=galleries.map(g=>`<article class="gallery-card">${g.image?`<div class="gallery-media"><img src="${esc(g.image)}" alt="Capa da galeria ${esc(g.day)}" loading="lazy"></div>`:''}<div class="gallery-body"><div class="gallery-year">${esc(g.year)}</div><h3>Galeria ${esc(g.day)}</h3><p>${esc(g.text)}</p><a class="gallery-link" href="${g.url}" target="_blank" rel="noopener">Ver galeria <span aria-hidden="true">→</span></a></div></article>`).join('');
  const videoWrap=document.querySelector('.video-wrap');
  if(videoWrap){
    const rawVideo=String(D.video2025||'');
@@ -114,6 +174,33 @@ function render(){
  }
  document.querySelector('#contacts').innerHTML=D.contacts.map(c=>`<div class="contact"><b>${esc(c.name)}</b>${c.href?`<a href="${c.href}">${esc(c.value)}</a>`:`<span>${esc(c.value)}</span>`}</div>`).join('');
 }
+
+function renderParticipants(){
+ const I=D.inscritos||{};
+ const total=Number(I.total||0);
+ const kpis=[
+  {label:'Inscritos confirmados',value:total},
+  {label:'Coralistas',value:(I.profiles||[]).find(x=>x.name==='Coralistas')?.count||0},
+  {label:'Estados representados',value:I.stateCount||0},
+  {label:'Regiões do Brasil',value:I.regionCount||0}
+ ];
+ const kpiEl=document.querySelector('#participants-kpis');
+ if(kpiEl)kpiEl.innerHTML=kpis.map(k=>`<article class="participant-kpi"><strong>${Number(k.value).toLocaleString('pt-BR')}</strong><span>${esc(k.label)}</span></article>`).join('');
+ const updated=document.querySelector('#participants-updated');if(updated)updated.textContent=I.updated||'';
+ const delegations=Array.isArray(I.delegations)?I.delegations:[];
+ const ranked=delegations.filter(d=>d.uf).sort((a,b)=>b.total-a.total);
+ const max=Math.max(...ranked.map(d=>Number(d.total)||0),1);
+ const ranking=document.querySelector('#delegation-ranking');
+ if(ranking)ranking.innerHTML=ranked.map((d,i)=>`<div class="delegation-row"><div class="delegation-rank">${String(i+1).padStart(2,'0')}</div><div class="delegation-main"><div class="delegation-label"><b>${esc(d.nome)}</b><span>${esc(d.uf)}</span></div><div class="delegation-track"><span style="width:${Math.max(6,(Number(d.total)||0)/max*100)}%"></span></div></div><strong class="delegation-total">${Number(d.total).toLocaleString('pt-BR')}</strong></div>`).join('')+`${delegations.some(d=>!d.uf)?`<div class="institutional-row"><span>Equipe FENACEF</span><strong>${Number(delegations.find(d=>!d.uf)?.total||0).toLocaleString('pt-BR')}</strong></div>`:''}`;
+ const profileMax=Math.max(...(I.profiles||[]).map(p=>Number(p.count)||0),1);
+ const profiles=document.querySelector('#participant-profiles');
+ if(profiles)profiles.innerHTML=(I.profiles||[]).map(p=>`<article class="profile-item"><div><strong>${Number(p.count).toLocaleString('pt-BR')}</strong><span>${esc(p.name)}</span></div><div class="profile-track"><span style="width:${Math.max(5,(Number(p.count)||0)/profileMax*100)}%"></span></div></article>`).join('');
+ const regionMax=Math.max(...(I.regions||[]).map(r=>Number(r.count)||0),1);
+ const regions=document.querySelector('#participant-regions');
+ if(regions)regions.innerHTML=(I.regions||[]).map(r=>`<div class="region-chip"><span>${esc(r.name)}</span><b>${Number(r.count).toLocaleString('pt-BR')}</b><i style="width:${Math.max(7,(Number(r.count)||0)/regionMax*100)}%"></i></div>`).join('');
+ const privacy=document.querySelector('#participants-privacy');if(privacy)privacy.textContent=I.privacyNote||'';
+}
+
 function renderCorals(){const q=document.querySelector('#coral-search')?.value.toLowerCase()||'';const st=document.querySelector('#filter-state')?.value||'';const day=document.querySelector('#filter-day')?.value||'';const arr=D.corais.filter(c=>(!st||c.state===st)&&(!day||c.day===day)&&(!q||[c.name,c.association,c.conductor,c.state].join(' ').toLowerCase().includes(q)));document.querySelector('#corals').innerHTML=arr.map(c=>`<article class="coral-card"><div class="coral-top"><div><span class="tag">${esc(c.day)} • ${esc(c.time)}</span></div><div class="state">${esc(c.state)}</div></div><h3>${esc(c.name)}</h3><div class="coral-meta"><strong>${esc(c.association)}</strong><br>Regência: ${esc(c.conductor)}${c.professionals?`<br>Apoio: ${esc(c.professionals)}`:''}</div>${c.note?`<div class="note">${esc(c.note)}</div>`:''}<details><summary>Ver repertório</summary><ol class="song-list">${c.songs.map(s=>`<li><strong>${esc(s[0])}</strong><small>Composição: ${esc(s[1])}<br>Arranjo: ${esc(s[2])}</small></li>`).join('')}</ol></details></article>`).join('');document.querySelector('#empty-corals').style.display=arr.length?'none':'block';}
 function printSection(id){document.body.classList.add('printing');document.querySelectorAll('main>section').forEach(s=>s.classList.toggle('print-only-target',s.id===id));window.print();setTimeout(()=>{document.body.classList.remove('printing');document.querySelectorAll('.print-only-target').forEach(s=>s.classList.remove('print-only-target'));},600)}
 window.printSection=printSection;
@@ -122,4 +209,43 @@ const back=document.querySelector('#backtop');window.addEventListener('scroll',(
 const menuToggle=document.querySelector('.menu-toggle');const mainNav=document.querySelector('#main-nav');if(menuToggle&&mainNav){menuToggle.addEventListener('click',()=>{const open=menuToggle.getAttribute('aria-expanded')==='true';menuToggle.setAttribute('aria-expanded',String(!open));menuToggle.setAttribute('aria-label',open?'Abrir menu':'Fechar menu');mainNav.classList.toggle('open',!open)});mainNav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{menuToggle.setAttribute('aria-expanded','false');menuToggle.setAttribute('aria-label','Abrir menu');mainNav.classList.remove('open')}));}
 const observer=new IntersectionObserver(entries=>entries.forEach(en=>{if(en.isIntersecting){document.querySelectorAll('.nav a').forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+en.target.id));}}),{rootMargin:'-35% 0px -55%'});document.querySelectorAll('main>section[id]').forEach(s=>observer.observe(s));
 render();
-</script></body></html>
+</script>
+<script type="module">
+import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7.9.0/+esm";
+import {feature} from "https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/+esm";
+const svg=d3.select("#brazil-map");
+const status=document.querySelector("#map-status");
+const tooltip=document.querySelector("#map-tooltip");
+const I=window.FENACANTO_DATA?.inscritos;
+if(svg.node()&&I){
+ const byUf=new Map((I.delegations||[]).filter(d=>d.uf).map(d=>[d.uf,d]));
+ try{
+  const response=await fetch("https://gist.githubusercontent.com/ruliana/1ccaaab05ea113b0dff3b22be3b4d637/raw/196c0332d38cb935cfca227d28f7cecfa70b412e/br-states.json");
+  if(!response.ok)throw new Error("mapa indisponível");
+  const topo=await response.json();
+  const states=feature(topo,topo.objects.estados);
+  const projection=d3.geoMercator().fitExtent([[22,18],[538,500]],states);
+  const path=d3.geoPath(projection);
+  const max=d3.max([...byUf.values()],d=>d.total)||1;
+  const scale=d3.scaleLinear().domain([1,max]).range(["#80d4d7","#007f87"]);
+  svg.selectAll("path").data(states.features).join("path")
+   .attr("class",d=>`brazil-state ${byUf.has(d.id)?"has-participants":""}`)
+   .attr("d",path)
+   .attr("fill",d=>byUf.has(d.id)?scale(byUf.get(d.id).total):"#e3ecef")
+   .attr("aria-label",d=>byUf.has(d.id)?`${d.properties?.nome||d.id}: ${byUf.get(d.id).total} inscritos`:`${d.properties?.nome||d.id}: sem delegação`)
+   .on("pointerenter pointermove",(event,d)=>{
+     const item=byUf.get(d.id);if(!item)return;
+     tooltip.hidden=false;tooltip.innerHTML=`<strong>${item.nome}</strong><span>${Number(item.total).toLocaleString("pt-BR")} inscritos</span>`;
+     const box=document.querySelector(".brazil-map-wrap").getBoundingClientRect();
+     tooltip.style.left=`${Math.min(event.clientX-box.left+12,box.width-170)}px`;
+     tooltip.style.top=`${Math.max(10,event.clientY-box.top-52)}px`;
+   })
+   .on("pointerleave",()=>{tooltip.hidden=true});
+  status.remove();
+ }catch(error){
+  status.textContent="O mapa não pôde ser carregado. A distribuição completa permanece disponível ao lado.";
+ }
+}
+</script>
+
+</body></html>
