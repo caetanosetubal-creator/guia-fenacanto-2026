@@ -789,6 +789,7 @@ window.FENACANTO_DATA = {
     {
       "name": "Teatro Tobias Barreto",
       "kind": "Apresentações e cerimônias",
+      "image": "assets/teatro-tobias-barreto.jpg",
       "address": "Av. Presidente Tancredo Neves, 2209 — Inácio Barbosa, Aracaju/SE",
       "maps": "https://www.google.com/maps/search/?api=1&query=Teatro+Tobias+Barreto+Aracaju",
       "waze": "https://www.waze.com/ul?q=Teatro%20Tobias%20Barreto%20Aracaju&navigate=yes",
@@ -801,6 +802,7 @@ window.FENACANTO_DATA = {
     {
       "name": "Del Mar Hotel",
       "kind": "Hospedagem, oficinas e jantar",
+      "image": "assets/del-mar-hotel.jpg",
       "address": "Av. Santos Dumont, 1500 — Coroa do Meio, Aracaju/SE — CEP 49035-785",
       "maps": "https://www.google.com/maps/search/?api=1&query=Del+Mar+Hotel+Aracaju",
       "waze": "https://www.waze.com/ul?q=Del%20Mar%20Hotel%20Aracaju&navigate=yes",
@@ -813,6 +815,7 @@ window.FENACANTO_DATA = {
     {
       "name": "APCEF/SE",
       "kind": "Confraternização de encerramento",
+      "image": "assets/apcef-se.jpg",
       "address": "Endereço e portaria de acesso: [A CONFIRMAR]",
       "maps": "https://www.google.com/maps/search/?api=1&query=APCEF+Sergipe+Aracaju",
       "waze": "https://www.waze.com/ul?q=APCEF%20Sergipe%20Aracaju&navigate=yes",
