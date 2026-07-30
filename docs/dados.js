@@ -828,16 +828,19 @@ window.FENACANTO_DATA = {
   "tourism": [
     {
       "name": "Orla de Atalaia",
+      "image": "assets/orla-atalaia.jpg",
       "text": "Passeio leve junto ao mar, com áreas de convivência, calçadões e atrações próximas ao hotel.",
       "route": "https://www.google.com/maps/search/?api=1&query=Orla+de+Atalaia+Aracaju"
     },
     {
       "name": "Oceanário de Aracaju",
+      "image": "assets/oceanario-aracaju.jpg",
       "text": "Atração próxima à Orla de Atalaia, indicada como opção breve nos intervalos. Consulte horários antes de sair.",
       "route": "https://www.google.com/maps/search/?api=1&query=Oceanario+de+Aracaju"
     },
     {
       "name": "Museu da Gente Sergipana",
+      "image": "assets/museu-gente-sergipana.jpg",
       "text": "Experiência cultural dedicada à identidade, aos costumes e à memória de Sergipe. Confirme funcionamento e deslocamento.",
       "route": "https://www.google.com/maps/search/?api=1&query=Museu+da+Gente+Sergipana"
     }
