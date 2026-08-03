@@ -24,7 +24,7 @@ window.FENACANTO_DATA = {
       "name": "Vânia Lacerda",
       "role": "Diretora de Eventos – FENACEF",
       "photo": "assets/vania-lacerda.jpg",
-      "text": "É com alegria e gratidão que damos as boas-vindas a coralistas, maestros, músicos, autoridades, convidados e ao público do IV FENACANTO. Celebramos mais que apresentações: celebramos amizade, cultura e a força da música coral para aproximar pessoas, histórias e lugares. Que estes dias sejam marcados por interpretações inspiradoras, convivência e integração. Agradecemos a cada coral e à AEA/SE pelo empenho na realização deste encontro. Sintam-se em casa e aproveitem cada momento."
+      "text": "É com alegria e gratidão que damos as boas-vindas a coralistas, maestros, convidados e ao público do IV FENACANTO. Celebramos mais que apresentações: celebramos amizade, cultura e a força da música coral para aproximar pessoas, histórias e lugares. Que estes dias sejam marcados por interpretações inspiradoras, convivência e integração. Agradecemos a cada coral e à AEA/SE pelo empenho na realização deste encontro. Sintam-se em casa e aproveitem cada momento."
     }
   ],
   "programacao": [
