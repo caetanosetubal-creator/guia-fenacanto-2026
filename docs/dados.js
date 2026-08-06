@@ -2,7 +2,7 @@ window.FENACANTO_DATA = {
   "meta": {
     "title": "Guia Oficial do Participante – FENACANTO 2026",
     "description": "Programação, corais, participantes, locais, orientações, turismo e memórias do IV FENACANTO, em Aracaju/SE.",
-    "updated": "30 de julho de 2026",
+    "updated": "6 de agosto de 2026",
     "status": "Versão revisada para validação institucional"
   },
   "summary": {
@@ -73,6 +73,13 @@ window.FENACANTO_DATA = {
           "type": "ensaio",
           "place": "Teatro Tobias Barreto",
           "note": "Agendamento com a coordenação."
+        },
+        {
+          "time": "14h–15h30",
+          "title": "Roda de conversa com Leopoldina Colares",
+          "type": "conversa",
+          "place": "Atividade da Oficina Canta",
+          "note": "Tema: Longevidade Saudável. Leopoldina Colares é escritora, ex-presidente da AEA/DF, ex-superintendente da Caixa e participou do filme Virada do Jogo 2."
         },
         {
           "time": "17h",
