@@ -78,8 +78,8 @@ window.FENACANTO_DATA = {
           "time": "14h–15h30",
           "title": "Roda de conversa com Leopoldina Colares",
           "type": "conversa",
-          "place": "Atividade da Oficina Canta",
-          "note": "Tema: Longevidade Saudável. Leopoldina Colares é escritora, ex-presidente da AEA/DF, ex-superintendente da Caixa e participou do filme Virada do Jogo 2."
+          "theme": "Longevidade Saudável",
+          "bio": "Escritora, ex-presidente da AEA/DF e ex-superintendente da CAIXA, Leopoldina Colares também participou do filme Virada do Jogo 2."
         },
         {
           "time": "17h",
