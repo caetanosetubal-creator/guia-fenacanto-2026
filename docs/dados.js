@@ -411,7 +411,7 @@ window.FENACANTO_DATA = {
           "Jovane Rodrigues da Vitória"
         ],
         [
-          "Fins do Lelê / Iaiá, Você Vai à Penha? / Tem Areia lá no Mar / Esse Congo",
+          "Ô tindô lelê / Iaiá, Você Vai à Penha? / Tem Areia lá no Mar / Esse Congo",
           "Domínio público / tradição do Congo Capixaba",
           "Jovane Rodrigues da Vitória"
         ]
