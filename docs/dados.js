@@ -181,7 +181,7 @@ window.FENACANTO_DATA = {
         },
         {
           "time": "20h",
-          "title": "Coral Alagoas – AEA/AL",
+          "title": "Coral AEA - Alagoas",
           "type": "apresentacao",
           "place": "Teatro Tobias Barreto"
         },
@@ -549,7 +549,7 @@ window.FENACANTO_DATA = {
       "state": "AL",
       "region": "Nordeste",
       "association": "AEA/AL",
-      "name": "Coral Alagoas",
+      "name": "Coral AEA - Alagoas",
       "conductor": "Wandeberg Santos",
       "professionals": "Esly de Albuquerque Pereira – pianista",
       "songs": [
