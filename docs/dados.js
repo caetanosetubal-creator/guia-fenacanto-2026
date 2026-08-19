@@ -181,7 +181,7 @@ window.FENACANTO_DATA = {
         },
         {
           "time": "20h",
-          "title": "Coral AEA - Alagoas",
+          "title": "Coral AEA - Alagoas – AEA/AL",
           "type": "apresentacao",
           "place": "Teatro Tobias Barreto"
         },
@@ -273,22 +273,22 @@ window.FENACANTO_DATA = {
       "songs": [
         [
           "Roque Santeiro",
-          "Sá e Guarabira",
+          "Sá e Guarabyra",
           "Edson Dida"
-        ],
-        [
-          "Chamego Só",
-          "Pedro Rogério Cardoso",
-          "Edson Dida"
-        ],
-        [
-          "Seja de Glória",
-          "Georg Friedrich Händel",
-          "José Augusto Bezerra"
         ],
         [
           "Andar com Fé",
           "Gilberto Gil",
+          "Edson Dida"
+        ],
+        [
+          "Esperando na Janela",
+          "Targino Gondim, Manuca Almeida e Raimundinho do Acordeon",
+          ""
+        ],
+        [
+          "Chamego Só",
+          "Pedro Rogério Cardoso Barbosa",
           "Edson Dida"
         ]
       ]
@@ -586,9 +586,9 @@ window.FENACANTO_DATA = {
       "professionals": "Ramon Maciel Romano – viola e violão",
       "songs": [
         [
-          "Tic Tac",
-          "Braulino Lima",
-          ""
+          "Saga de um Canoeiro",
+          "Ronaldo Barbosa",
+          "Moisés Rodrigues e Fernando Martins"
         ],
         [
           "Sabiá",
