@@ -1088,5 +1088,61 @@ window.FENACANTO_DATA = {
       }
     ],
     "privacyNote": "Para preservar os dados pessoais, o guia apresenta somente informações consolidadas. Nomes, CPFs e demais dados individuais não são publicados."
+  },
+  "traslado": {
+    "destination": "Teatro Tobias Barreto",
+    "intro": "Confira o ponto de embarque e os horários de saída informados pela logística para o deslocamento até o Teatro Tobias Barreto.",
+    "points": [
+      {
+        "name": "Del Mar Hotel",
+        "point": "Em frente ao hotel",
+        "departures": [
+          "17h",
+          "17h40"
+        ],
+        "return": "",
+        "image": "assets/traslado-delmar.jpg",
+        "note": "Há dois horários de saída conforme a distribuição logística."
+      },
+      {
+        "name": "Celi Hotel",
+        "point": "Em frente ao hotel",
+        "departures": [
+          "17h"
+        ],
+        "return": "",
+        "image": "assets/traslado-celi.jpg"
+      },
+      {
+        "name": "Aquários Praia Hotel",
+        "point": "Em frente ao hotel",
+        "departures": [
+          "17h"
+        ],
+        "return": "",
+        "image": "assets/traslado-aquarios.webp"
+      },
+      {
+        "name": "Arcus Hotel",
+        "point": "Em frente ao hotel",
+        "departures": [
+          "17h"
+        ],
+        "return": "",
+        "image": "assets/traslado-arcus.jpg"
+      },
+      {
+        "name": "Outros hotéis / hospedagens",
+        "point": "Em frente ao Del Mar Hotel",
+        "departures": [
+          "17h40"
+        ],
+        "return": "",
+        "image": "assets/traslado-delmar.jpg",
+        "note": "Ponto de concentração para participantes hospedados fora dos hotéis indicados."
+      }
+    ],
+    "returnNote": "Os documentos de traslado recebidos não informam os horários de retorno do Teatro Tobias Barreto para os hotéis. Esses horários serão incluídos assim que forem oficialmente disponibilizados.",
+    "day26Note": "Em 26/08, a programação oficial prevê saída dos hotéis às 15h. A distribuição por ponto de embarque para esse horário ainda não consta nas tabelas de traslado recebidas."
   }
 };
